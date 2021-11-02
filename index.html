@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+  <title>Fleeboys crew - COLLECTIBLE NFTs</title>
+  
+  
+  
+  <meta content="Webflow" name="generator"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <script src="https://use.fontawesome.com/086a408cde.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+<!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+<!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet"> -->
+<link rel="stylesheet" href="style.css">
+<!-- <link href="https://fonts.googleapis.com/css2?family=Caladea&display=swap" rel="stylesheet"> -->
+  <!-- <link href="https://assets.website-files.com/60ef399b992671a8275e6cff/css/oni-c4e917.webflow.d22044c40.css" rel="stylesheet" type="text/css"/> -->
+  <style>@media (min-width:992px) {html.w-mod-js:not(.w-mod-ix) [data-w-id="f952444c-5169-28a0-c720-5ede6d48eafc"] {-webkit-transform:translate3d(0, 0, 0) scale3d(0, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(0, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(0, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(0, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0;}html.w-mod-js:not(.w-mod-ix) [data-w-id="1159da94-36fd-2272-b9f8-4ac63c0c515c"] {-webkit-transform:translate3d(0, 0, 0) scale3d(0, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(0, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(0, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(0, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0;}html.w-mod-js:not(.w-mod-ix) [data-w-id="3bb63cfc-39a7-0b8f-60a6-3578ed320545"] {opacity:0;}}@media (max-width:991px) and (min-width:768px) {html.w-mod-js:not(.w-mod-ix) [data-w-id="f952444c-5169-28a0-c720-5ede6d48eafc"] {-webkit-transform:translate3d(0, 0, 0) scale3d(0, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(0, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(0, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(0, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0;}html.w-mod-js:not(.w-mod-ix) [data-w-id="1159da94-36fd-2272-b9f8-4ac63c0c515c"] {-webkit-transform:translate3d(0, 0, 0) scale3d(0, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(0, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(0, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(0, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0;}html.w-mod-js:not(.w-mod-ix) [data-w-id="3bb63cfc-39a7-0b8f-60a6-3578ed320545"] {opacity:0;}}
+  body{
+    font-family: 'Caladea', serif;
+  }
+
+  .nav-link{
+    font-family: 'Caladea', serif; 
+  }
+
+  .navbar{
+    background-color: #27214f;
+  }
+
+  .navbar a{
+    color: #f9e076;
+  }
+  </style><script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script><script type="text/javascript">WebFont.load({  google: {    families: ["Lato:100,100italic,300,300italic,400,400italic,700,700italic,900,900italic","Inconsolata:400,700","Orbitron:regular,500,700","Inter:regular"]  }});</script><!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif]--><script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
+  <!-- <link href="https://assets.website-files.com/60ef399b992671a8275e6cff/60f62a30c40eed2d3074d20a_oni-favicon.png" rel="shortcut icon" type="image/x-icon"/><link href="https://assets.website-files.com/60ef399b992671a8275e6cff/60f62a332eef03784f351981_oni-webclip.png" rel="apple-touch-icon"/>Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-J2J3MV9F4B"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-J2J3MV9F4B');
+</script><script type="text/javascript">window.__WEBFLOW_CURRENCY_SETTINGS = {"currencyCode":"USD","$init":true,"symbol":"$","decimal":".","fractionDigits":2,"group":",","template":"{{wf {\"path\":\"symbol\",\"type\":\"PlainText\"} }} {{wf {\"path\":\"amount\",\"type\":\"CommercePrice\"} }} {{wf {\"path\":\"currencyCode\",\"type\":\"PlainText\"} }}","hideDecimalForWholeNumbers":false};</script></head>
+<body class="body" style="background-color: #27214f;">
+  <div data-collapse="medium" data-animation="default" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navbar w-nav">
+ 
+    <div class="div-block-9"><nav role="navigation" class="nav-menu w-nav-menu" style="  font-family: 'Calibri';
+      font-style: normal;
+      font-weight: 700;
+      src: url(https://fonts.gstatic.com/l/font?kit=J7aanpV-BGlaFfdAjAo9_pxqHxIZrCE&skey=cd2dd6afe6bf0eb2&v=v11) format('woff2');
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+     ">
+    <a href="index.html" class="nav-link w-nav-link logo" style="text-align: left; padding-right: 200px; font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://fonts.gstatic.com/l/font?kit=J7aanpV-BGlaFfdAjAo9_pxqHxIZrCE&skey=cd2dd6afe6bf0eb2&v=v11) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; ">FLEEBOYS</a>
+    
+    <a href="index.html" aria-current="page" class="nav-link w-nav-link w--current" style="  font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://fonts.gstatic.com/l/font?kit=J7aanpV-BGlaFfdAjAo9_pxqHxIZrCE&skey=cd2dd6afe6bf0eb2&v=v11) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+   ">Home</a>
+    
+    <a href="#about" class="nav-link w-nav-link" style="  font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://fonts.gstatic.com/l/font?kit=J7aanpV-BGlaFfdAjAo9_pxqHxIZrCE&skey=cd2dd6afe6bf0eb2&v=v11) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+   ">Story</a>
+    
+    <a href="#rarity" class="nav-link w-nav-link" style="  font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://fonts.gstatic.com/l/font?kit=J7aanpV-BGlaFfdAjAo9_pxqHxIZrCE&skey=cd2dd6afe6bf0eb2&v=v11) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+   ">Design</a>
+    
+    <a href="#roadmap" class="nav-link w-nav-link" style="  font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://fonts.gstatic.com/l/font?kit=J7aanpV-BGlaFfdAjAo9_pxqHxIZrCE&skey=cd2dd6afe6bf0eb2&v=v11) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+   ">Roadmap</a>
+   
+   <a href="#team" class="nav-link w-nav-link" style="  font-family: 'Calibri';
+   font-style: normal;
+   font-weight: 700;
+   src: url(https://fonts.gstatic.com/l/font?kit=J7aanpV-BGlaFfdAjAo9_pxqHxIZrCE&skey=cd2dd6afe6bf0eb2&v=v11) format('woff2');
+   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  ">Crew</a>
+    
+    <a href="https://twitter.com/fleeboysNFT" target="_blank" class="link-block-2 w-inline-block">
+      
+      <img src="https://assets.website-files.com/60ef399b992671a8275e6cff/6108de68356149230eaaa848_twitter.svg" loading="lazy" alt="" class="image-12"/></a>
+      
+      <a href="https://discord.gg/fleeboys" target="_blank" class="link-block w-inline-block"><img src="https://assets.website-files.com/60ef399b992671a8275e6cff/6108de698866019a09fc2162_discord.svg" loading="lazy" alt="" class="image-12"/></a>
+
+      <a href="https://instagram.com/fleeboysnft" target="_blank" class="link-block w-inline-block"><img src="instagram.png" loading="lazy" alt="" class="image-12"/></a>
+
+
+  <a href="#" class="mint-llink w-nav-link">MINT</a></nav><div class="menu-button w-nav-button">
+    <div class="icon w-icon-nav-menu"></div></div></div></div>
+    
+    <div class="section inverted wf-section" style="
+      display: block;
+      background-image: url(head.jpg);
+      background-position: 50% 50%;
+      background-size: cover;
+  ">
+    
+      <div class="container hero" ><div class="col-l-2">
+        <!-- <img src="logo.png" alt="donw"> -->
+ </div><div id="w-node-f952444c-5169-28a0-c720-5ede6d48eafc-d481af5e" data-w-id="f952444c-5169-28a0-c720-5ede6d48eafc" style="  font-family: 'Calibri';
+ font-style: normal;
+ font-weight: 700;
+ src: url(https://fonts.gstatic.com/l/font?kit=J7aanpV-BGlaFfdAjAo9_pxqHxIZrCE&skey=cd2dd6afe6bf0eb2&v=v11) format('woff2');
+ unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+" class="col-r"><div data-delay="1200" data-animation="cross" data-autoplay="1" data-duration="500" data-infinite="1" class="slider-3 w-slider"><div class="mask-2 w-slider-mask"><div class="slide-14 w-slide"></div><div class="slide-12 w-slide"></div><div class="slide-11 w-slide"></div><div class="slide-15 w-slide"></div><div class="slide-13 w-slide"></div><div class="slide-16 w-slide"></div></div><div class="left-arrow w-slider-arrow-left"><div class="w-icon-slider-left"></div></div><div class="right-arrow-2 w-slider-arrow-right"><div class="w-icon-slider-right"></div></div><div class="slide-nav-2 w-slider-nav w-round"></div></div></div></div></div><div class="section inverted dapp-box wf-section"></div><div id="about" style="background-color: #27214f;" class=" wf-section">
+   <div id="about" class="container-3"><img src="logo.png" loading="lazy" alt="fleE Logo" class="image-6"/><h1 class="h2" style="color: #f9e076;  font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://fonts.gstatic.com/l/font?kit=J7aanpV-BGlaFfdAjAo9_pxqHxIZrCE&skey=cd2dd6afe6bf0eb2&v=v11) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  ">WE ARE FLEEBOYS</h1><div class="text-block-3" style="color: #f9e076;   font-family: 'Calibri';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/l/font?kit=J7aanpV-BGlaFfdAjAo9_pxqHxIZrCE&skey=cd2dd6afe6bf0eb2&v=v11) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+" ><strong>/flē bois/
+    Noun. Stylish, fashionable, and youthful young men on the blockchain.</strong><span class="text-span-7"><strong class="bold-text-2">‍</strong></span><br/></div><div class="text-block-3" style="color: #f9e076;   font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://fonts.gstatic.com/l/font?kit=J7aanpV-BGlaFfdAjAo9_pxqHxIZrCE&skey=cd2dd6afe6bf0eb2&v=v11) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  "><strong>Stay tuned for Fleeboys minting date.</strong><strong><strong class="bold-text-2"></strong></strong><br/></div><a href="https://opensea.io/collection/0n1-force" target="_blank" class="button button-2 w-button" style="color: #f9e076; border-radius: 20px;   font-family: 'Calibri';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/l/font?kit=J7aanpV-BGlaFfdAjAo9_pxqHxIZrCE&skey=cd2dd6afe6bf0eb2&v=v11) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+">Not minting yet</a><div class="hook"><div id="w-node-aa436fd5-2daf-69b0-b641-7e93c400cba1-d481af5e" class="div-block-13"><img src="nft.jpg" loading="lazy" sizes="(max-width: 479px) 90vw, (max-width: 767px) 400px, (max-width: 991px) 52vw, (max-width: 1439px) 23vw, (max-width: 1919px) 24vw, 20vw"   class="image-10"/><h3 class="h3" style="color: #f9e076;   font-family: 'Calibri';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/l/font?kit=J7aanpV-BGlaFfdAjAo9_pxqHxIZrCE&skey=cd2dd6afe6bf0eb2&v=v11) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+"></h3></div><div class="div-block-13"><img src="nft.jpg" loading="lazy" sizes="(max-width: 479px) 90vw, (max-width: 767px) 400px, (max-width: 991px) 52vw, (max-width: 1439px) 23vw, (max-width: 1919px) 24vw, 20vw"  alt="" class="image-10"/><h3 class="h3" style="color: #f9e076;   font-family: 'Calibri';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/l/font?kit=J7aanpV-BGlaFfdAjAo9_pxqHxIZrCE&skey=cd2dd6afe6bf0eb2&v=v11) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+"></h3></div><div class="div-block-13"><img src="nft.jpg" loading="lazy" sizes="(max-width: 479px) 90vw, (max-width: 767px) 400px, (max-width: 991px) 52vw, (max-width: 1439px) 23vw, (max-width: 1919px) 24vw, 20vw"  alt="" class="image-10"/>
+<h3 class="h3" style="color: #f9e076;"></h3></div></div><img src="head.jpg" loading="lazy" sizes="(max-width: 767px) 90vw, (max-width: 1919px) 75vw, 60vw" srcset="https://assets.website-files.com/60ef399b992671a8275e6cff/610d793938c82b5278a4267a_0n1-bg 500w, https://assets.website-files.com/60ef399b992671a8275e6cff/610d793938c82b5278a4267a_0n1-bg-p-800.png 800w, https://assets.website-files.com/60ef399b992671a8275e6cff/610d793938c82b5278a4267a_0n1-bg-p-1080.png 1080w, https://assets.website-files.com/60ef399b992671a8275e6cff/610d793938c82b5278a4267a_0n1-bg-p-1600.png 1600w, https://assets.website-files.com/60ef399b992671a8275e6cff/610d793938c82b5278a4267a_0n1-bg-p-2000.png 2000w, head.jpg 2400w" alt="" class="image-9"/><h1 class="heading-2 head-lefdt" style="color: #f9e076;   font-family: 'Calibri';
+font-style: normal;
+font-weight: 700;
+src: url(https://fonts.gstatic.com/l/font?kit=J7aanpV-BGlaFfdAjAo9_pxqHxIZrCE&skey=cd2dd6afe6bf0eb2&v=v11) format('woff2');
+unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+"> THE STORY</h1><div class="text-block-3"style="color: #f9e076;   font-family: 'Calibri';
+font-style: normal;
+font-weight: 700;
+src: url(https://fonts.gstatic.com/l/font?kit=J7aanpV-BGlaFfdAjAo9_pxqHxIZrCE&skey=cd2dd6afe6bf0eb2&v=v11) format('woff2');
+unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+">We are dropping 10K NFTs that celebrate fashion, style, culture and community.  We are partnering with You Gotta Believe, an organization that helps teenagers in foster care find permanent families in NYC. <br/><br/>This project was inspired by our mother and son team.  Trey, age 22, has provided the inspiration and styles for these NFTs.  Growing up in Brooklyn, he beat the odds by graduating from high school and starting his own career, when many people said that he couldn’t do it.<br/><br/>Youth don’t have it easy in urban areas like Brooklyn.  With all the bullying, temptations, school violence and lack of male role models, many have seen things some people can't even imagine.  This project will generate awareness to encourage youth to get involved in positive outlets such as art and technology, while at the same time supporting youth in foster care.<span class="text-span-7"><strong class="bold-text-2">‍</strong></span><br/></div><a href="https://discord.gg/fleeboys" target="_blank" class="button w-button" style="color: #f9e076; border-radius: 20px;   font-family: 'Calibri';
+font-style: normal;
+font-weight: 700;
+src: url(https://fonts.gstatic.com/l/font?kit=J7aanpV-BGlaFfdAjAo9_pxqHxIZrCE&skey=cd2dd6afe6bf0eb2&v=v11) format('woff2');
+unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+">Join our discord</a></div></div>
+
+
+<div class="section-5 wf-section"><img src="banner.png" loading="lazy" sizes="100vw"  alt="" class="image-15"/></div>
+
+
+<section id="rarity" style="background-color: #27214f;" class="cards-section rarity-section wf-section">
+
+<div class="centered"><h2 class="heading-2 head-lefdt clan-head" style="color: #f9e076;   font-family: 'Calibri';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/l/font?kit=J7aanpV-BGlaFfdAjAo9_pxqHxIZrCE&skey=cd2dd6afe6bf0eb2&v=v11) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+">Designs</h2>
+
+
+<div class="div-block-23">
+  
+  <p class="paragraph-3" style="color: #f9e076; ">Our fleeboys have been inspired by styles typical in Brooklyn and other artistic urban areas.  We paid special attention to the art and culture inspired by murals and other common city scenes.  Clothing, haircuts, facial designs and accessories play a big role in the styles of these NFTs.  Humans are common, but elves, genies and royalty are rare.</p>
+  
+  </div>
+  
+  <div class="row">
+    
+    <div class="col" id="w-node-_56e1eda2-dd4f-efb0-c3c7-c0618022e5c8-d481af5e"><div class="cards-image-mask"><img src="nft.jpg" sizes="(max-width: 479px) 83vw, (max-width: 767px) 85vw, (max-width: 991px) 28vw, (max-width: 1439px) 23vw, (max-width: 1919px) 24vw, 20vw"  alt="" class="cards-image"/></div><h3 class="heading-10" style="color: #f9e076;   font-family: 'Calibri';
+font-style: normal;
+font-weight: 700;
+src: url(https://fonts.gstatic.com/l/font?kit=J7aanpV-BGlaFfdAjAo9_pxqHxIZrCE&skey=cd2dd6afe6bf0eb2&v=v11) format('woff2');
+unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+">Backgrounds</h3></div>
+
+
+<div class="col" id="w-node-_56e1eda2-dd4f-efb0-c3c7-c0618022e5d1-d481af5e"><div class="cards-image-mask"><img src="nft.jpg" sizes="(max-width: 479px) 83vw, (max-width: 767px) 85vw, (max-width: 991px) 28vw, (max-width: 1439px) 23vw, (max-width: 1919px) 24vw, 20vw"  alt="" class="cards-image"/></div><h3 id="w-node-_56e1eda2-dd4f-efb0-c3c7-c0618022e5d4-d481af5e" class="heading-9" style="color: #f9e076;   font-family: 'Calibri';
+font-style: normal;
+font-weight: 700;
+src: url(https://fonts.gstatic.com/l/font?kit=J7aanpV-BGlaFfdAjAo9_pxqHxIZrCE&skey=cd2dd6afe6bf0eb2&v=v11) format('woff2');
+unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+">Family</h3>
+</div>
+
+<div class="col" id="w-node-_56e1eda2-dd4f-efb0-c3c7-c0618022e5d1-d481af5e"><div class="cards-image-mask"><img src="nft.jpg" sizes="(max-width: 479px) 83vw, (max-width: 767px) 85vw, (max-width: 991px) 28vw, (max-width: 1439px) 23vw, (max-width: 1919px) 24vw, 20vw"  alt="" class="cards-image"/></div><h3 id="w-node-_56e1eda2-dd4f-efb0-c3c7-c0618022e5d4-d481af5e" class="heading-9" style="color: #f9e076;   font-family: 'Calibri';
+font-style: normal;
+font-weight: 700;
+src: url(https://fonts.gstatic.com/l/font?kit=J7aanpV-BGlaFfdAjAo9_pxqHxIZrCE&skey=cd2dd6afe6bf0eb2&v=v11) format('woff2');
+unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+">Clothing</h3>
+</div>
+
+<div class="col" id="w-node-_56e1eda2-dd4f-efb0-c3c7-c0618022e5d8-d481af5e"><div class="cards-image-mask"><img src="nft.jpg" sizes="(max-width: 479px) 83vw, (max-width: 767px) 85vw, (max-width: 991px) 28vw, (max-width: 1439px) 23vw, (max-width: 1919px) 24vw, 20vw"  alt="" class="cards-image"/></div><h3 id="w-node-_56e1eda2-dd4f-efb0-c3c7-c0618022e5db-d481af5e" class="heading-8" style="color: #f9e076;   font-family: 'Calibri';
+font-style: normal;
+font-weight: 700;
+src: url(https://fonts.gstatic.com/l/font?kit=J7aanpV-BGlaFfdAjAo9_pxqHxIZrCE&skey=cd2dd6afe6bf0eb2&v=v11) format('woff2');
+unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+">Haircuts</h3></div>
+
+
+</div></div>
+
+  </section>
+   <div id="roadmap" class="section inverted favored wf-section" style="background-color: #27214f;">
+
+     <h1 class="heading-2 head-lefdt road-map" style="color: #f9e076;   font-family: 'Calibri';
+     font-style: normal;
+     font-weight: 700;
+     src: url(https://fonts.gstatic.com/l/font?kit=J7aanpV-BGlaFfdAjAo9_pxqHxIZrCE&skey=cd2dd6afe6bf0eb2&v=v11) format('woff2');
+     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+   ">THE ROADMAP - <span class="text-span-12">Sales Roadmap</span></h1>
+     <div class="container contain-80"><div data-w-id="3bb63cfc-39a7-0b8f-60a6-3578ed320545" class="col-l">
+      <span style="font-size: 20px;color: #f9e076;   font-family: 'Calibri';
+      font-style: normal;
+      margin-bottom: 28px;
+      line-height:28px;
+      font-weight: 700;
+      src: url(https://fonts.gstatic.com/l/font?kit=J7aanpV-BGlaFfdAjAo9_pxqHxIZrCE&skey=cd2dd6afe6bf0eb2&v=v11) format('woff2');
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    ">Pre-Launch: Discord, Twitter and Website go live and we will do some giveaways</span> 
+       <div class="div-block-17"><div><h1 class="heading-3 head-left" style="color: #f9e076;  font-family: 'Calibri';
+        font-style: normal;
+        font-weight: 700;
+        src: url(https://fonts.gstatic.com/l/font?kit=J7aanpV-BGlaFfdAjAo9_pxqHxIZrCE&skey=cd2dd6afe6bf0eb2&v=v11) format('woff2');
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+      ">20% Sold</h1>  
+        <div class="text-block-2" style="color: #f9e076;   font-family: 'Calibri';
+        font-style: normal;
+        font-weight: 700;
+        src: url(https://fonts.gstatic.com/l/font?kit=J7aanpV-BGlaFfdAjAo9_pxqHxIZrCE&skey=cd2dd6afe6bf0eb2&v=v11) format('woff2');
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+      "> Start the next phase of planning. Donation to You Gotta Believe, organization that helps teenagers in foster care find adoptive families. <a href="http://yougottabelieve.org.">http://yougottabelieve.org.</a>  </div></div>
+        <div><h1 class="heading-3 head-left" style="color: #f9e076;  font-family: 'Calibri';
+          font-style: normal;
+          font-weight: 700;
+          src: url(https://fonts.gstatic.com/l/font?kit=J7aanpV-BGlaFfdAjAo9_pxqHxIZrCE&skey=cd2dd6afe6bf0eb2&v=v11) format('woff2');
+          unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+        ">40% Sold</h1><div class="text-block-2" style="color: #f9e076;   font-family: 'Calibri';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/l/font?kit=J7aanpV-BGlaFfdAjAo9_pxqHxIZrCE&skey=cd2dd6afe6bf0eb2&v=v11) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+">Partner with DJs and music artists.  Start companion NFT project. Build a separate team that will work with youth exposing them to technology careers, more giveaways.  2022 Roadmap is activated.       </div></div></div></div>
+        <div id="w-node-_3bb63cfc-39a7-0b8f-60a6-3578ed32055a-d481af5e" class="col-r col-r-3"><div><h1 class="heading-3 head-left" style="color: #f9e076;   font-family: 'Calibri';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/l/font?kit=J7aanpV-BGlaFfdAjAo9_pxqHxIZrCE&skey=cd2dd6afe6bf0eb2&v=v11) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+">60% Sold</h1><div class="text-block-2" style="color: #f9e076;   font-family: 'Calibri';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/l/font?kit=J7aanpV-BGlaFfdAjAo9_pxqHxIZrCE&skey=cd2dd6afe6bf0eb2&v=v11) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+"> Build up team, NFT giveaway to youth, select youth ambassadors. Initiate comic book/graphic novel concept, start planning 2022 events.  Second donation to You Gotta Believe.         </div></div>
+        <div id="w-node-_3bb63cfc-39a7-0b8f-60a6-3578ed32055a-d481af5e" class="col-r col-r-3"><div><h1 class="heading-3 head-left" style="color: #f9e076;   font-family: 'Calibri';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/l/font?kit=J7aanpV-BGlaFfdAjAo9_pxqHxIZrCE&skey=cd2dd6afe6bf0eb2&v=v11) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+">80-100% Sold</h1><div class="text-block-2" style="color: #f9e076;   font-family: 'Calibri';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/l/font?kit=J7aanpV-BGlaFfdAjAo9_pxqHxIZrCE&skey=cd2dd6afe6bf0eb2&v=v11) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+"> Start working on the comic book/graphic novel concept.  Involve the youth ambassadors in the project.  Third donation to You Gotta Believe.  Scholarship fund for youth who are interested in coding bootcamps.        </div></div>
+       </div></div></div>
+        <!-- <div id="roadmap" class="section inverted wf-section" ></div> -->
+        <div id="roadmap" class="section inverted favored wf-section" style="background-color: #27214f;">
+          <h1 class="heading-2 head-lefdt road-map" style="color: #f9e076;   font-family: 'Calibri';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/l/font?kit=J7aanpV-BGlaFfdAjAo9_pxqHxIZrCE&skey=cd2dd6afe6bf0eb2&v=v11) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+">THE ROADMAP - <span class="text-span-12">2022 Roadmap</span></h1>
+          <div class="container contain-80"><div data-w-id="3bb63cfc-39a7-0b8f-60a6-3578ed320545" class="col-l">
+            <div class="div-block-17"><div><h1 class="heading-3 head-left" style="color: #f9e076;   font-family: 'Calibri';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/l/font?kit=J7aanpV-BGlaFfdAjAo9_pxqHxIZrCE&skey=cd2dd6afe6bf0eb2&v=v11) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+">Q1</h1>
+             <div class="text-block-2" style="color: #f9e076;   font-family: 'Calibri';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/l/font?kit=J7aanpV-BGlaFfdAjAo9_pxqHxIZrCE&skey=cd2dd6afe6bf0eb2&v=v11) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+">Invitation to VIP event during Black Film Festival.  Fleeboys NFT Holders eligible to mint a companion NFT.</div></div>
+             <div><h1 class="heading-3 head-left" style="color: #f9e076;   font-family: 'Calibri';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/l/font?kit=J7aanpV-BGlaFfdAjAo9_pxqHxIZrCE&skey=cd2dd6afe6bf0eb2&v=v11) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+">Q2</h1><div class="text-block-2" style="color: #f9e076;   font-family: 'Calibri';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/l/font?kit=J7aanpV-BGlaFfdAjAo9_pxqHxIZrCE&skey=cd2dd6afe6bf0eb2&v=v11) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+"> VIP events around the US.  Technology retreat in the Caribbean or other location.  New NFT project..</div></div></div></div>
+             <div id="w-node-_3bb63cfc-39a7-0b8f-60a6-3578ed32055a-d481af5e" class="col-r col-r-3"><div><h1 class="heading-3 head-left" style="color: #f9e076;   font-family: 'Calibri';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/l/font?kit=J7aanpV-BGlaFfdAjAo9_pxqHxIZrCE&skey=cd2dd6afe6bf0eb2&v=v11) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+">Q3</h1><div class="text-block-2" style="color: #f9e076;   font-family: 'Calibri';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/l/font?kit=J7aanpV-BGlaFfdAjAo9_pxqHxIZrCE&skey=cd2dd6afe6bf0eb2&v=v11) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+"> Badges to technology conference in Amsterdam.       </div></div>
+             <div id="w-node-_3bb63cfc-39a7-0b8f-60a6-3578ed32055a-d481af5e" class="col-r col-r-3"><div><h1 class="heading-3 head-left" style="color: #f9e076;   font-family: 'Calibri';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/l/font?kit=J7aanpV-BGlaFfdAjAo9_pxqHxIZrCE&skey=cd2dd6afe6bf0eb2&v=v11) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+">Q4</h1><div class="text-block-2" style="color: #f9e076;   font-family: 'Calibri';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/l/font?kit=J7aanpV-BGlaFfdAjAo9_pxqHxIZrCE&skey=cd2dd6afe6bf0eb2&v=v11) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+"> Holiday Bash!      </div></div>
+             <!-- <div id="w-node-_3bb63cfc-39a7-0b8f-60a6-3578ed32055a-d481af5e" class="col-r col-r-3"><div><h1 class="heading-3 head-left">All year</h1><div class="text-block-2">   </div></div> -->
+            </div></div></div>
+             <div id="roadmap" class="section inverted wf-section"></div>
+             <!-- <div id="roadmap" class="section inverted favored wf-section"> -->
+     
+        
+        
+        <section id="team" style="background-color: #27214f; padding-bottom: 40px;" class="cards-section wf-section" >
+          
+          <div class="centered">
+            <h2 class="heading-2 head-lefdt team-head" style="color: #f9e076;  font-family: 'Calibri';
+            font-style: normal;
+            font-weight: 700;
+            src: url(https://fonts.gstatic.com/l/font?kit=J7aanpV-BGlaFfdAjAo9_pxqHxIZrCE&skey=cd2dd6afe6bf0eb2&v=v11) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+            ">Our crew</h2><br>
+
+            <div>
+              <div style="color: #f9e076; font-size: 20px;">Coming Soon.....</div>
+
+            </div>
+            <!-- <div class="cards-grid-container">
+              <div id="w-node-e10f9346-a840-fd3f-f8fd-120351f0a717-d481af5e">
+
+              </div><div id="w-node-_0e1dfec6-b6d5-6d6a-77dc-2734f7487109-d481af5e"></div></div><div class="cards-grid-container card-bottom"><div id="w-node-_0e1dfec6-b6d5-6d6a-77dc-2734f7487100-d481af5e"><div class="cards-image-mask"><img src="https://assets.website-files.com/60ef399b992671a8275e6cff/6150039b9a079b0c475f380d_emberg.png" sizes="(max-width: 479px) 83vw, (max-width: 767px) 85vw, (max-width: 991px) 28vw, (max-width: 1439px) 23vw, (max-width: 1919px) 24vw, 20vw" srcset="https://assets.website-files.com/60ef399b992671a8275e6cff/6150039b9a079b0c475f380d_emberg-p-500.png 500w, https://assets.website-files.com/60ef399b992671a8275e6cff/6150039b9a079b0c475f380d_emberg-p-800.png 800w, https://assets.website-files.com/60ef399b992671a8275e6cff/6150039b9a079b0c475f380d_emberg-p-1080.png 1080w, https://assets.website-files.com/60ef399b992671a8275e6cff/6150039b9a079b0c475f380d_emberg-p-1600.png 1600w, https://assets.website-files.com/60ef399b992671a8275e6cff/6150039b9a079b0c475f380d_emberg-p-2000.png 2000w, https://assets.website-files.com/60ef399b992671a8275e6cff/6150039b9a079b0c475f380d_emberg-p-2600.png 2600w, https://assets.website-files.com/60ef399b992671a8275e6cff/6150039b9a079b0c475f380d_emberg-p-3200.png 3200w, https://assets.website-files.com/60ef399b992671a8275e6cff/6150039b9a079b0c475f380d_emberg.png 4961w" alt="" class="cards-image"/></div><h3 id="w-node-_0e1dfec6-b6d5-6d6a-77dc-2734f7487103-d481af5e" class="heading-9" style="color: #f9e076;">EM / LINK</h3><p class="role" style="color: #f9e076;">// Community Relations, Discord</p><a href="https://twitter.com/linkedem" target="_blank" class="team-social w-inline-block"><img src="https://assets.website-files.com/60ef399b992671a8275e6cff/6108de68356149230eaaa848_twitter.svg" loading="lazy" alt="" class="image-11 social-2"/></a></div><div><div class="cards-image-mask"><img src="https://assets.website-files.com/60ef399b992671a8275e6cff/615003501120d22256805e91_JRArtspace-0n1.png" sizes="(max-width: 479px) 83vw, (max-width: 767px) 85vw, (max-width: 991px) 28vw, (max-width: 1439px) 23vw, (max-width: 1919px) 24vw, 20vw" srcset="https://assets.website-files.com/60ef399b992671a8275e6cff/615003501120d22256805e91_JRArtspace-0n1-p-500.png 500w, https://assets.website-files.com/60ef399b992671a8275e6cff/615003501120d22256805e91_JRArtspace-0n1-p-800.png 800w, https://assets.website-files.com/60ef399b992671a8275e6cff/615003501120d22256805e91_JRArtspace-0n1-p-1080.png 1080w, https://assets.website-files.com/60ef399b992671a8275e6cff/615003501120d22256805e91_JRArtspace-0n1-p-1600.png 1600w, https://assets.website-files.com/60ef399b992671a8275e6cff/615003501120d22256805e91_JRArtspace-0n1-p-2000.png 2000w, https://assets.website-files.com/60ef399b992671a8275e6cff/615003501120d22256805e91_JRArtspace-0n1-p-2600.png 2600w, https://assets.website-files.com/60ef399b992671a8275e6cff/615003501120d22256805e91_JRArtspace-0n1-p-3200.png 3200w, https://assets.website-files.com/60ef399b992671a8275e6cff/615003501120d22256805e91_JRArtspace-0n1.png 4961w" alt="" class="cards-image"/></div><h3 class="heading-10" style="color: #f9e076;">JR</h3><p class="role" style="color: #f9e076;">// CMO, Marketing</p><a href="https://twitter.com/JRartspace_NFT" target="_blank" class="team-social w-inline-block"><img src="https://assets.website-files.com/60ef399b992671a8275e6cff/6108de68356149230eaaa848_twitter.svg" loading="lazy" alt="" class="image-11 social-2"/></a></div><div id="w-node-_93d8ac76-8754-4176-224a-1fdef086fcc7-d481af5e"><div class="cards-image-mask"><img src="https://assets.website-files.com/60ef399b992671a8275e6cff/612fd2e1d480b82af90feddd_cromagnus.jpg" sizes="(max-width: 479px) 83vw, (max-width: 767px) 85vw, (max-width: 991px) 28vw, (max-width: 1439px) 23vw, (max-width: 1919px) 24vw, 20vw" srcset="https://assets.website-files.com/60ef399b992671a8275e6cff/612fd2e1d480b82af90feddd_cromagnus-p-500.jpeg 500w, https://assets.website-files.com/60ef399b992671a8275e6cff/612fd2e1d480b82af90feddd_cromagnus-p-800.jpeg 800w, https://assets.website-files.com/60ef399b992671a8275e6cff/612fd2e1d480b82af90feddd_cromagnus-p-1080.jpeg 1080w, https://assets.website-files.com/60ef399b992671a8275e6cff/612fd2e1d480b82af90feddd_cromagnus-p-1600.jpeg 1600w, https://assets.website-files.com/60ef399b992671a8275e6cff/612fd2e1d480b82af90feddd_cromagnus-p-2000.jpeg 2000w, https://assets.website-files.com/60ef399b992671a8275e6cff/612fd2e1d480b82af90feddd_cromagnus.jpg 2048w" alt="" class="cards-image"/></div><h3 id="w-node-_93d8ac76-8754-4176-224a-1fdef086fcca-d481af5e" class="heading-8" style="color: #f9e076;">CROMAGNUS</h3><p class="role" style="color: #f9e076;">// In-house Illustrator</p><a href="https://twitter.com/cromagnus" target="_blank" class="team-social w-inline-block"><img src="https://assets.website-files.com/60ef399b992671a8275e6cff/6108de68356149230eaaa848_twitter.svg" loading="lazy" alt="" class="image-11 social-2"/></a></div><div id="w-node-a0d219e2-992d-88dc-d9bd-6548ca61e4fe-d481af5e"><div class="cards-image-mask"> -->
+  <!-- <img src="https://assets.website-files.com/60ef399b992671a8275e6cff/614ff44596264c673db68a33_JP.png" sizes="(max-width: 479px) 83vw, (max-width: 767px) 85vw, (max-width: 991px) 28vw, (max-width: 1439px) 23vw, (max-width: 1919px) 24vw, 20vw" srcset="https://assets.website-files.com/60ef399b992671a8275e6cff/614ff44596264c673db68a33_JP-p-500.png 500w, https://assets.website-files.com/60ef399b992671a8275e6cff/614ff44596264c673db68a33_JP-p-800.png 800w, https://assets.website-files.com/60ef399b992671a8275e6cff/614ff44596264c673db68a33_JP-p-1080.png 1080w, https://assets.website-files.com/60ef399b992671a8275e6cff/614ff44596264c673db68a33_JP-p-1600.png 1600w, https://assets.website-files.com/60ef399b992671a8275e6cff/614ff44596264c673db68a33_JP-p-2000.png 2000w, https://assets.website-files.com/60ef399b992671a8275e6cff/614ff44596264c673db68a33_JP-p-2600.png 2600w, https://assets.website-files.com/60ef399b992671a8275e6cff/614ff44596264c673db68a33_JP-p-3200.png 3200w, https://assets.website-files.com/60ef399b992671a8275e6cff/614ff44596264c673db68a33_JP.png 4961w" alt="" class="cards-image"/></div><h3 id="w-node-a0d219e2-992d-88dc-d9bd-6548ca61e501-d481af5e" class="heading-8" style="color: #f9e076;">JP</h3><p class="role" style="color: #f9e076;">// BizDev &amp; Communications</p><a href="https://twitter.com/cyb3ralch3mist" target="_blank" class="team-social w-inline-block"><img src="https://assets.website-files.com/60ef399b992671a8275e6cff/6108de68356149230eaaa848_twitter.svg" loading="lazy" alt="" class="image-11 social-2"/></a></div><div id="w-node-_695ee277-769e-3e92-0425-e71607cf3167-d481af5e"><div class="cards-image-mask"></div></div></div>-->
+  </section> 
+  
+  <div id="roadmap" class="section inverted collecting wf-section"><div class="container contain-80"><div id="w-node-_1159da94-36fd-2272-b9f8-4ac63c0c515a-d481af5e" class="col-l col-l-3"><div class="div-block-10"><div class="div-block-17"><h1 class="heading-2 head-lefdt"> collecting</h1><div><h1 class="heading-3 head-left" style="color: #f9e076;">1. GET A METAMASK WALLET</h1><div class="text-block-2" style="color: #f9e076;">Download the <a href="http://metamask.io/" target="_blank" class="link-3" style="color: #f9e076;">METAMASK.IO</a> extension for the CHROME, FIREFOX, or BRAVE browser or METAMASK app on mobile. This will allow you to make purchases and collect NFTs on Ethereum and, once installed, can be found in the extensions tab. <br/><br/>If you are on mobile, you MUST use the Metamask app browser.</div></div><div><h1 class="heading-3 head-left" style="color: #f9e076;">2. ACQUIRE ETHEREUM</h1><div class="text-block-2" style="color: #f9e076;">We suggest that you do this in advance. Minting for 0N1 Force NFTs will be between .07 and .09 ETHEREUM per transaction (plus gas).<br/><br/>You are able to purchase ETHEREUM through the METAMASK wallet using Wyre or Send Ethereum from an exchange like <a href="http://coinbase.com/" class="link-3" style="color: #f9e076;">Coinbase</a>.</div></div><div><h1 class="heading-3 head-left" style="color: #f9e076;">3. MINT AN 0N1 NFT</h1><div class="text-block-2" style="color: #f9e076;">Once launched (early August), a dAPP to connect your wallet, select quantity, and purchase will appear.<br/><br/>First, you will connect your wallet and sign. Then, select the amount of 0N1 you wish to mint, and finally select MINT to make the transaction. You will pay the amount per 0N1 NFT plus gas (transaction fee).<br/><br/>You will be able to submit a transaction for 20 0N1 in a single tx. </div></div></div></div></div><div id="w-node-_1159da94-36fd-2272-b9f8-4ac63c0c515c-d481af5e" data-w-id="1159da94-36fd-2272-b9f8-4ac63c0c515c" class="col-r"></div></div></div><div class="col-l col-l-bottom"></div>
+  
+  <div class="section inverted wf-section"></div></div><div id="w-node-_0512a439-4d02-bef2-e9bf-2be5a16dc4c0-d481af5e" class="col-r col-r-2"></div></div></div>
+  
+  
+  
+  
+  <footer id="footer" class="footer wf-section">
+    <div class="container-4 w-container">
+      <div class="">
+      <div style="justify-content: center; text-align: center; display: flex"><ul role="list" style="display: flex;" class="w-list-unstyled">
+        <li><a href="https://twitter.com/fleeboysNFT" target="_blank" class="link-block w-inline-block">
+      
+        <img src="https://assets.website-files.com/60ef399b992671a8275e6cff/6108de68356149230eaaa848_twitter.svg" loading="lazy" alt="" class="image-12"/></a></li><li>
+          <a href="https://instagram.com/fleeboysnft" target="_blank" class="link-block w-inline-block"><img src="instagram.png" loading="lazy" alt="" class="image-12"/></a></li><li><a href="https://discord.gg/fleeboys" target="_blank" class="link-block w-inline-block"><img src="https://assets.website-files.com/60ef399b992671a8275e6cff/6108de698866019a09fc2162_discord.svg" loading="lazy" alt="" class="image-12"/></a></li></ul></div></div><div class="text-block-5" style="color: #f9e076;  font-family: 'Calibri';
+          font-style: normal;
+          font-weight: 700;
+          src: url(https://fonts.gstatic.com/l/font?kit=J7aanpV-BGlaFfdAjAo9_pxqHxIZrCE&skey=cd2dd6afe6bf0eb2&v=v11) format('woff2');
+          unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+        ">Copyright © 2021 <a href="tel:+2348147270710" style="color: #f9e076;">FLEEBOYS,</a> LLC. All rights reserved.</div></div></footer><script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=60ef399b992671a8275e6cff" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script><script src="https://assets.website-files.com/60ef399b992671a8275e6cff/js/webflow.2967fb05f.js" type="text/javascript"></script><script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]<script src="https://cdn.ethers.io/lib/ethers-5.4.umd.min.js" type="text/javascript"></script>
+<script src="https://assets.website-files.com/60ef399b992671a8275e6cff/61191d5a5cc3c303ac56366b_bundle.txt" type="text/javascript"></script>
+</body>
+</html>
